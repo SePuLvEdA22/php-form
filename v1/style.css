@@ -1,0 +1,41 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    font-family: sans-serif;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 30px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+    outline: none;
+    width: 250px;
+    background-color: inherit;
+}
+
+input[type="submit"] {
+    color: blanchedalmond;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(149, 153, 157);
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+input::placeholder {
+    color: rgb(185, 185, 185);
+}
+
